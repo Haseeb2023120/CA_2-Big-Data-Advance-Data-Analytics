@@ -1,0 +1,17 @@
+Step 1: Data Retrieval and Storage
+The first step involves retrieving the dataset and storing it in a suitable database for further processing.It includes the followings:
+1.1 Retrieve the Dataset
+•	Download the "ProjectTweets.csv" file from Moodle.
+•	Check the file to ensure it's not corrupted and the data is in the correct format.
+1.2 Select Database
+•	Choose a suitable SQL/NoSQL database for storing the dataset. In this case, I’ve used MongoDB.
+1.3 Install Necessary Software
+•	I’ve Installed MongoDB on my computer or server.
+•	I’ve install Python from the official Python website.
+1.4 Prepare the Dataset
+•	I’ve opened the CSV file and check the structure of the data.
+•	I’ve made sure of any missing or inconsistent data that might need cleaning during the preprocessing step.
+1.5 Store Data in MongoDB
+•	I’ve created a new database in MongoDB, let's call it "tweets_db."
+•	I’ve created a new collection in "tweets_db,"  called it "tweet."
+•	I’ve written a Python script to read data from "ProjectTweets.csv" and insert it into the "tweet" collection in MongoDB.
