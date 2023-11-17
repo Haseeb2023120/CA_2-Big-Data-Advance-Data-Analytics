@@ -7,11 +7,10 @@ The first step involves retrieving the dataset and storing it in a suitable data
 •	Choose a suitable SQL/NoSQL database for storing the dataset. In this case, I’ve used MongoDB.
 1.3 Install Necessary Software
 •	I’ve Installed MongoDB on my computer or server.
-•	I’ve install Python from the official Python website.
 1.4 Prepare the Dataset
 •	I’ve opened the CSV file and check the structure of the data.
 •	I’ve made sure of any missing or inconsistent data that might need cleaning during the preprocessing step.
 1.5 Store Data in MongoDB
 •	I’ve created a new database in MongoDB, let's call it "tweets_db."
 •	I’ve created a new collection in "tweets_db,"  called it "tweet."
-•	I’ve written a Python script to read data from "ProjectTweets.csv" and insert it into the "tweet" collection in MongoDB.
+•	I’ve written a Python script to read data from "ProjectTweets.csv" and insert it into the "tweet" collection in MongoD
